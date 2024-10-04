@@ -8,3 +8,7 @@ C:\Users\donghs\Documents\Visual Studio 2010\Projects\learn-mvc3\SportsStore\Spo
 C:\Users\donghs\Documents\Visual Studio 2010\Projects\learn-mvc3\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
 C:\Users\donghs\Documents\Visual Studio 2010\Projects\learn-mvc3\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
 C:\Users\donghs\Documents\Visual Studio 2010\Projects\learn-mvc3\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\Users\donghs\Documents\Visual Studio 2010\Projects\learn-mvc3\SportsStore\SportsStore.WebUI\bin\Moq.dll
+C:\Users\donghs\Documents\Visual Studio 2010\Projects\learn-mvc3\SportsStore\SportsStore.WebUI\bin\Moq.pdb
+C:\Users\donghs\Documents\Visual Studio 2010\Projects\learn-mvc3\SportsStore\SportsStore.WebUI\bin\Moq.xml
+C:\Users\donghs\Documents\Visual Studio 2010\Projects\learn-mvc3\SportsStore\SportsStore.WebUI\bin\Ninject.xml
