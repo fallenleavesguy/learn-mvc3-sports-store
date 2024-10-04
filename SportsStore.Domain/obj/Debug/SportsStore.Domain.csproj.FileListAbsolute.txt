@@ -1,0 +1,4 @@
+C:\Users\donghs\Documents\Visual Studio 2010\Projects\learn-mvc3\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\Users\donghs\Documents\Visual Studio 2010\Projects\learn-mvc3\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\Users\donghs\Documents\Visual Studio 2010\Projects\learn-mvc3\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\Users\donghs\Documents\Visual Studio 2010\Projects\learn-mvc3\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
