@@ -17,6 +17,7 @@ using Moq;
 using System.Collections.Generic;
 using SportsStore.Domain.Entities;
 using System.Linq;
+using SportsStore.Domain.Concrete;
 
 namespace SportsStore.WebUI.Infrastructure
 {
@@ -40,14 +41,15 @@ namespace SportsStore.WebUI.Infrastructure
         private void AddBindings()
         {
             // Mock implementation of the IProductRepository Interface
-            Mock<IProductRepository> mock = new Mock<IProductRepository>();
-            mock.Setup(m => m.Products)
-                .Returns(new List<Product> {
-                    new Product { Name = "Football", Price = 25 },
-                    new Product { Name = "Surf board", Price = 179 },
-                    new Product { Name = "Running shoes", Price = 95 }
-                }.AsQueryable());
-            ninjectKernel.Bind<IProductRepository>().ToConstant(mock.Object);
+            //Mock<IProductRepository> mock = new Mock<IProductRepository>();
+            //mock.Setup(m => m.Products)
+            //    .Returns(new List<Product> {
+            //        new Product { Name = "Football", Price = 25 },
+            //        new Product { Name = "Surf board", Price = 179 },
+            //        new Product { Name = "Running shoes", Price = 95 }
+            //    }.AsQueryable());
+            //ninjectKernel.Bind<IProductRepository>().ToConstant(mock.Object);
+            ninjectKernel.Bind<IProductRepository>().To<EFProductRepository>();
         }
     }
 }
