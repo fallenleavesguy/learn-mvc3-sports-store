@@ -50,6 +50,13 @@ namespace SportsStore.WebUI.Infrastructure
             //    }.AsQueryable());
             //ninjectKernel.Bind<IProductRepository>().ToConstant(mock.Object);
             ninjectKernel.Bind<IProductRepository>().To<EFProductRepository>();
+
+            EmailSettings emailSettings = new EmailSettings
+            {
+                WriteAsFile = bool.Parse(ConfigurationManager.AppSettings["Email.WriteAsFile"] ?? "false")
+            };
+            ninjectKernel.Bind<IOrderProcessor>()
+                .To<EmailOrderProcessor>().WithConstructorArgument("settings", emailSettings);
         }
     }
 }
